@@ -1,0 +1,46 @@
+body { 
+    background-image: url('https://www.imghost.net/ib/ryMpmrpQNZN4CGx_1733121097.jpg'); /* Ganti dengan URL gambar Anda */ 
+    background-size: cover; /* Menyesuaikan ukuran gambar agar menutupi seluruh latar belakang */ background-repeat: no-repeat; /* Tidak mengulang gambar */ 
+    background-attachment: fixed; /* Membuat gambar tetap ketika halaman di-scroll */ 
+}
+
+.warung {
+    background-image: linear-gradient(to bottom, #f8f7a4, #fafae7);
+}
+
+.store {
+    background-image: linear-gradient(to bottom, #aefaa7, #e1f7df);
+}
+
+.btn-instagram {
+    background-image: linear-gradient(to right, #f093fb, #f558ba);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out; /* Tambahkan transisi */
+}
+
+.btn-instagram:hover {
+    background-image: linear-gradient(to left, #f093fb, #f558ba); /* Ubah arah gradien */
+}
+
+.btn-tiktok {
+    background: linear-gradient(to right, #f791e6, #a7e4f7);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-tiktok:hover {
+    background-image: linear-gradient(to left, #f791e6, #a7e4f7);
+}
+
+.btn-whatsapp {
+    background: linear-gradient(to right, #7df387, #4cf15a);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-whatsapp:hover {
+    background-image: linear-gradient(to left, #7df387, #cdfcd1);
+}
